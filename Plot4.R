@@ -1,4 +1,4 @@
-#plot3
+#plot4
 
 dataset<-read.table("household_power_consumption.txt", sep=";")
 subset<-subset(dataset, dataset$V1=="1/2/2007" | dataset$V1=="2/2/2007")
